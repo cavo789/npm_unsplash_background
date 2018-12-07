@@ -1,3 +1,5 @@
+![Banner](image/banner.jpg)
+
 # unsplash-background
 
 > On every Windows startup use a new background image directly downloaded from [Unsplash](https://unsplash.com/)
@@ -27,7 +29,7 @@ So, please first install :
 2. Then, on the command prompt, install unsplash-wallpaper by just running `npm i -g unsplash-wallpaper` on the Windows command prompt (the famous `cmd.exe`)
 3. Then, take a copy of this script and save it into your `%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup` folder.
 
-The biggest job is to install NPM ;-) You can do this by going to  https://nodejs.org/en/, download the Windows binary file (take the 64 bits version if you've Windows 64 bits). Once installed, you can check that NPM is correctly installed by just running `npm -v` on the Windows command prompt. If you can see the NPM version, it's done.
+The biggest job is to install NPM ;-) You can do this by going to https://nodejs.org/en/, download the Windows binary file (take the 64 bits version if you've Windows 64 bits). Once installed, you can check that NPM is correctly installed by just running `npm -v` on the Windows command prompt. If you can see the NPM version, it's done.
 
 ## Usage
 
