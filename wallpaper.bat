@@ -1,9 +1,9 @@
 @ECHO OFF
 
-IF NOT EXIST "%cd%\images" MKDIR "%cd%\images"
+IF NOT EXIST "%temp%\images" MKDIR "%temp%\images"
 
 IF NOT EXIST .gitignore (
-	ECHO "%cd%\images" > .gitignore
+	ECHO "%temp%\images" > .gitignore
 )
 
-unsplash-wallpaper -r -w 1920 -h 1080 -d "%cd%\images"
+unsplash-wallpaper -r -w 1920 -h 1080 -d "%temp%\images"
