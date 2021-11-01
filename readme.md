@@ -1,6 +1,6 @@
 # unsplash-background
 
-![Banner](./images/banner.jpg)
+![Banner](./banner.svg)
 
 > On every Windows startup use a new background image directly downloaded from [Unsplash](https://unsplash.com/)
 
